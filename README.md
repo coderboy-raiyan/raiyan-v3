@@ -2,7 +2,7 @@
 
 [![CI](https://github.com/trekhleb/trekhleb.github.io/workflows/CI/badge.svg)](https://github.com/trekhleb/trekhleb.github.io/actions?query=workflow%3ACI+branch%3Amaster)
 
-My personal [website]() with a list of my projects that help people learn and web-development, and Some of my testimonials.
+My personal portfolio website showcasing a compilation of my projects, providing visitors with an opportunity to gain a better understanding of who I am.
 
 ![Raiyan.dev](https://res.cloudinary.com/dayleukzg/image/upload/v1654585163/Personal/Black_Minimal_Business_Personal_Profile_Linkedin_Banner_dkcx4c.png)
 
