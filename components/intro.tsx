@@ -30,26 +30,38 @@ export default function Intro() {
             }}
           >
             <Image
-              src="https://res.cloudinary.com/dayleukzg/image/upload/v1704793254/ch4ig8e74l3idanhhvkd.png"
+              src="https://res.cloudinary.com/raiyan/image/upload/v1761378362/Gemini_Generated_Image_axxturaxxturaxxt_wj8cme.png"
               alt="Ricardo portrait"
-              width="192"
-              height="192"
-              quality="95"
+              width="400"
+              height="500"
               priority={true}
-              className="h-24 w-24 rounded-full object-cover border-[0.35rem] border-white shadow-xl"
+              className="rounded-full w-[260px] h-[260px] mx-auto object-cover border-[0.35rem] border-white shadow-xl"
             />
           </motion.div>
-
           <motion.span
-            className="absolute bottom-0 right-0 text-4xl"
+            className="absolute bottom-0 right-[27px] text-4xl"
             initial={{ opacity: 0, scale: 0 }}
-            animate={{ opacity: 1, scale: 1 }}
-            transition={{
-              type: "spring",
-              stiffness: 125,
-              delay: 0.1,
-              duration: 0.7,
+            animate={{
+              opacity: 1,
+              scale: 2,
+              rotate: [0, 14, -8, 14, -4, 10, 0], // Wave motion
             }}
+            transition={{
+              opacity: { duration: 0.2 },
+              scale: {
+                type: "spring",
+                stiffness: 125,
+                delay: 0.1,
+                duration: 0.7,
+              },
+              rotate: {
+                delay: 0.4,
+                duration: 1.2, // Slower wave (was 0.6)
+                ease: "easeInOut",
+                repeat: Infinity, // Fewer waves
+              },
+            }}
+            style={{ transformOrigin: "70% 70%" }}
           >
             👋
           </motion.span>
